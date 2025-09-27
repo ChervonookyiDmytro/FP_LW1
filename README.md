@@ -77,9 +77,4 @@ CL-USER> (append (second lst) lst)
 ```lisp
 CL-USER> (let ((y (list 'A 2 1))) (list y 'B (cdr y) 'C ))
 ((A 2 1) B (2 1) C)
-
-;; або
-
-CL-USER> (list (list 'A 2 1) 'B (list 2 1) 'C)
-((A 2 1) B (2 1) C)
 ```
